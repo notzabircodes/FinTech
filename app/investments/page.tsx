@@ -132,7 +132,7 @@ const MapUpdater = ({ center }: { center: [number, number] }) => {
       const response = await axios.get(`https://api.rentcast.io/v1/listings/sale?${params}`, {
         headers: {
           accept: 'application/json',
-          'X-Api-Key': '9d92cdb7df6c474d8110321d6767b8bc', // Replace with your real API key
+          'X-Api-Key': '', // Replace with your real API key
         },
       });
 
